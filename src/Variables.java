@@ -1,5 +1,5 @@
 public class Variables {
-    public static  void main(String[] args){
+    public static  void main(StringWork[] args){
         String name = "Anup Chand";
         int age = 22;
         double pi = 3.14;
