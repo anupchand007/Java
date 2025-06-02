@@ -2,7 +2,7 @@ package JavaSwing;
 
 import javax.swing.*;
 
-public class SwigDemo2 {
+public class SwingDemo2 {
     public static void main(String[] args) {
         JFrame frame = new JFrame("SwingDemo2");
         frame.setSize(1800, 900);
