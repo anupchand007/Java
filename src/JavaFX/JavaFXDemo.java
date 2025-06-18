@@ -15,7 +15,7 @@ public class JavaFXDemo extends Application {
 
         StackPane root = new StackPane();
         root.getChildren().add(label);
-        Button btn = new Button("Click me Bitch");
+        Button btn = new Button("Aaulu Bhindi Gobi");
         Scene scene = new Scene(root, 300, 200);
         primaryStage.setTitle("JavaFX App");
         primaryStage.setScene(scene);
