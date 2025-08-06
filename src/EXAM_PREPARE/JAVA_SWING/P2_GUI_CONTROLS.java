@@ -58,10 +58,24 @@ public class P2_GUI_CONTROLS {
 
         JLabel l4 =new JLabel("How do U feel about us!!!");
         JTextArea t2 = new JTextArea(30, 20 );
+        t2.setMaximumSize(new java.awt.Dimension(200, 15));
         JScrollPane scrollPane = new JScrollPane(t2);
         panel.add(l4);
         panel.add(t2);
         panel.add(scrollPane);
+
+        JButton btn = new JButton("Click me Here!!!");
+        JOptionPane.showMessageDialog(panel , "Welcome User");
+        JOptionPane.showConfirmDialog(panel, "You Good");
+        String name = JOptionPane.showInputDialog(panel, "Enter Name:");
+        int ans = JOptionPane.showConfirmDialog(panel, "Continue?");
+
+
+//        JOptionPane.showMessageDialog(btn, "Hey there Stranger!");
+//        JOptionPane.showConfirmDialog(btn, "Did you just clicked at me?");
+//        JOptionPane.showConfirmDialog(btn, "Yes I did");
+//        JOptionPane.showConfirmDialog(btn, "No It was mistake");
+        panel.add(btn);
 
         frame.add(panel);
         frame.setVisible(true);
