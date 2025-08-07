@@ -1,4 +1,4 @@
-package EXAM_PREPARE;
+package EXAM_PREPARE.P1_CORE;
 
 interface Hunter{
     public void Eats();

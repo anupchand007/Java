@@ -1,4 +1,4 @@
-package EXAM_PREPARE;
+package EXAM_PREPARE.P1_CORE;
 
 class TMS {
     String TMSWork = "Send People Abroad";

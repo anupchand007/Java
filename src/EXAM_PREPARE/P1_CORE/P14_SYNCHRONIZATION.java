@@ -1,4 +1,4 @@
-package EXAM_PREPARE;
+package EXAM_PREPARE.P1_CORE;
 
 class Counter{
     private int count = 0;

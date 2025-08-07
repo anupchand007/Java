@@ -1,4 +1,4 @@
-package EXAM_PREPARE;
+package EXAM_PREPARE.P1_CORE;
 
 public class P10_THROWS {
     public static void checkAge(int age) throws Exception{

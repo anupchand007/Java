@@ -1,4 +1,4 @@
-package EXAM_PREPARE;
+package EXAM_PREPARE.P1_CORE;
 
 public class P2_ARRAY {
     public static void main(String[] args) {

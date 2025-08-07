@@ -1,7 +1,6 @@
-package EXAM_PREPARE.JAVA_SWING;
+package EXAM_PREPARE.P2_JAVA_SWING;
 
 import javax.swing.*;
-import javax.swing.border.Border;
 import java.awt.*;
 import java.awt.event.InputEvent;
 import java.awt.event.KeyEvent;

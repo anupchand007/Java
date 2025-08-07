@@ -1,4 +1,4 @@
-package EXAM_PREPARE.JAVA_SWING;
+package EXAM_PREPARE.P2_JAVA_SWING;
 
 import javax.swing.*;
 
