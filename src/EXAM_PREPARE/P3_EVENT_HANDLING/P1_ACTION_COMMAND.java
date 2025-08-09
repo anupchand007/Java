@@ -35,7 +35,38 @@ public class P1_ACTION_COMMAND {
                 System.out.println("Focus Lost : " + e.getCause());
             }
         });
+        tf.addKeyListener(new KeyAdapter() {
+            public void keyPressed(KeyEvent e){
+                System.out.println("Key Pressed: "+ e.getKeyChar());
+            }
+        });
 
+        frame.addWindowListener(new WindowAdapter() {
+            @Override
+            public void windowClosing(WindowEvent e) {
+                System.out.println("Window is Closing");
+                System.exit(0);
+            }
+        });
+
+        JCheckBox chk1 = new JCheckBox("Subscribe");
+        chk1.addItemListener(new ItemListener() {
+            public void itemStateChanged(ItemEvent e) {
+                System.out.println("Status changed to: " + e.getStateChange());
+            }
+        });
+
+        frame.add(chk1);
+
+        JButton btn2 = new JButton("Red");
+        btn2.setActionCommand("Red");
+        btn2.addActionListener(e-> {
+          if(e.getActionCommand().equals("Red")){
+              System.out.println("Red Button is clicked");
+          }
+        });
+
+        frame.add(btn2);
 
         frame.add(tf);
         frame.add(btn);
