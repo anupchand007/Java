@@ -1,0 +1,4 @@
+package EXAM_PREPARE.P6_JAVA_SERVLET;
+
+public class P6_JAVA_SERVLET {
+}
